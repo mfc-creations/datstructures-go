@@ -55,22 +55,22 @@ func InitTrie() *Trie{
 
 
 
-func main(){
-	myTrie:=InitTrie()
+// func main(){
+// 	myTrie:=InitTrie()
 	
-	words:=[]string{
-		"oreo",
-		"mfc",
-		"company",
-		"golang",
-		"dsa",
-	}
+// 	words:=[]string{
+// 		"oreo",
+// 		"mfc",
+// 		"company",
+// 		"golang",
+// 		"dsa",
+// 	}
 
-	for _,v :=range words{
-		myTrie.Insert(v)
-	}
+// 	for _,v :=range words{
+// 		myTrie.Insert(v)
+// 	}
 
-	fmt.Println(myTrie.Search("mfc"))
-	fmt.Println(myTrie.Search("code"))
-	fmt.Println(myTrie.Search("dsa"))
-}
+// 	fmt.Println(myTrie.Search("mfc"))
+// 	fmt.Println(myTrie.Search("code"))
+// 	fmt.Println(myTrie.Search("dsa"))
+// }
