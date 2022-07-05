@@ -42,14 +42,14 @@ func (n *Node) Search(k int) bool{
 	return true
 }
 
-func main(){
-	tree:=&Node{Key:100}
-	tree.Insert(20)
-	tree.Insert(30)
-	tree.Insert(220)
-	tree.Insert(210)
-	tree.Insert(260)
-	fmt.Println(tree)
-	fmt.Println(tree.Search(260))
+// func main(){
+// 	tree:=&Node{Key:100}
+// 	tree.Insert(20)
+// 	tree.Insert(30)
+// 	tree.Insert(220)
+// 	tree.Insert(210)
+// 	tree.Insert(260)
+// 	fmt.Println(tree)
+// 	fmt.Println(tree.Search(260))
 
-}
+// }
